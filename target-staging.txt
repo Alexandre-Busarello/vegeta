@@ -1,0 +1,3 @@
+POST https://chimera.stg.descomplica.io/graphql
+Content-Type: application/json
+@query.json

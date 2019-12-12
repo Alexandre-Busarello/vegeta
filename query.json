@@ -1,0 +1,7 @@
+{
+  "query": "query LapDisciplineScreen($course: String!, $discipline: String!) { chimera { course(slug: $course) { discipline(slug: $discipline) { subjects { topics { name lessonCount suggestedTopics { name lessonCount } } } } } }}",
+  "variables": {
+    "course": "enem-extensivo-2019",
+    "discipline": "biologia"
+  }
+}
