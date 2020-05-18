@@ -1,7 +1,3 @@
 {
-  "query": "query LapDisciplineScreen($course: String!, $discipline: String!) { chimera { course(slug: $course) { discipline(slug: $discipline) { subjects { topics { name lessonCount suggestedTopics { name lessonCount } } } } } }}",
-  "variables": {
-    "course": "enem-extensivo-2019",
-    "discipline": "biologia"
-  }
+  "query": "query Test { chimera { me { allContracts { expirationDateISO } isSubscriber courses { slug name: displayName enrolled category { slug name colorKit { main callToAction hover } } subcategory { name slug } } } course(slug: \"todas-as-carreiras-extensivo-completo-2020-A\") { name: displayName authorized slug category { slug name colorKit { main } } subcategory { name slug } currentWeekPlanning { serial essaySubject { id rdnkId name dexId dexSlug } liveLessons { name description disciplines { slug name } teacher { name picture(name: \"beta-lesson-card\") { url } } transmissionDate transmissionEndDate slug imageUrl streamingUrl } boosts { authorized name liveLessons { name description disciplines { slug name } teacher { name picture(name: \"live\") { url } } transmissionDate transmissionEndDate slug imageUrl streamingUrl } } } adsEnabled browsable sellingPagePath preSaleText partnerLogoUrl calendarUrl editorialMostSearchedPhrases periodTypeName assessmentEnabled liveClassEnabled tutoringEnabled studyPlanEnabled disciplineEnabled essayEnabled exercisesEnabled dexClassroomId dexExamsBoardId dexClassroomSlug dexExamsBoardSlug materialsEnabled assessmentEnabled dashboardEnabled isTrial viewDate periodPlanning: weekPlanning { serial } tutoringResource: resources(type: tutoring) { total used } essayResource: resources(type: essay) { total used } weeklyExamSuggestion { dexUrl name overallQuestionCount } } } }"
 }

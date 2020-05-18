@@ -1,3 +1,5 @@
 POST https://chimera.stg.descomplica.io/graphql
 Content-Type: application/json
+Authorization: Bearer 27169c178f16c58728de14635a94f61006cfcc2d
+Cache-Control: max-age=3600
 @query.json
